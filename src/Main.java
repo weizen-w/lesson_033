@@ -11,8 +11,8 @@ public class Main {
   //  - выведите новую добавку
   public static void main(String[] args) {
     Soda sodaStrawberry = new Soda("Strawberry");
-    System.out.println("Current additive - " + sodaStrawberry.getAdditive());
-    sodaStrawberry.setAdditive("Watermelon");
-    System.out.println("New additive - " + sodaStrawberry.getAdditive());
+    System.out.println("Current additive - " + sodaStrawberry.getSupplement());
+    sodaStrawberry.setSupplement("Watermelon");
+    System.out.println("New additive - " + sodaStrawberry.getSupplement());
   }
 }

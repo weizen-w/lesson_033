@@ -1,16 +1,16 @@
 public class Soda {
 
-  private String additive;
+  private String supplement;
 
-  public Soda(String additive) {
-    this.additive = additive;
+  public Soda(String supplement) {
+    this.supplement = supplement;
   }
 
-  public String getAdditive() {
-    return additive;
+  public String getSupplement() {
+    return supplement;
   }
 
-  public void setAdditive(String additive) {
-    this.additive = additive;
+  public void setSupplement(String supplement) {
+    this.supplement = supplement;
   }
 }
